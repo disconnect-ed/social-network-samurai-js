@@ -1,0 +1,21 @@
+.settings-wrap {
+    background-color: white;
+}
+
+.settings-data {
+    max-width: 500px;
+}
+
+.settings-avatar {
+    width: 230px;
+    height: 230px;
+}
+
+.settings-avatar-wrap {
+    width: 230px;
+    height: 230px;
+    background-color: white;
+    color: #007BFF;
+    font-size: 150px;
+    box-shadow: 0 0 7px 2px #007BFF;
+}

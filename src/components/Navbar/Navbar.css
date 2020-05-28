@@ -1,0 +1,30 @@
+.navbar-link {
+    display: block;
+    width: 100%;
+    line-height: 40px;
+    text-decoration: none !important;
+}
+
+.navbar-link-icon {
+    display: inline-block;
+    min-width: 40px;
+    padding-left: 10px;
+}
+
+.navbar-link-wrap:hover {
+    background-color: #66b0ff;
+}
+
+.navbar-link-wrap:hover a span{
+    color: white !important;
+}
+
+.active {
+    background-color: #007BFF;
+    color: white !important;
+}
+
+.nav-menu {
+    position: sticky;
+    top: 25px;
+}

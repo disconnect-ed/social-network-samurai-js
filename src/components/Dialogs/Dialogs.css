@@ -1,0 +1,58 @@
+.users-dialogs {
+    background-color: white;
+}
+
+
+.users-dialogs__img, .users-dialogs__img img {
+    width: 38px;
+    height: 38px;
+    font-size: 30px;
+    color: #007BFF;
+}
+
+
+.users-dialogs-wrap {
+    display: block;
+    text-decoration: none !important;
+}
+
+.users-dialogs-wrap:hover {
+    background-color: #66b0ff;
+    color: white;
+
+}
+
+.active .users-dialogs-inner {
+    background-color: #007BFF;
+}
+
+.user-messages-wrap {
+    min-height: 500px;
+    background-color: white;
+}
+
+.user-messages {
+    height: 350px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.users-dialogs__text {
+    background-color: #66b0ff;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.users-dialogs__text_user {
+    background-color: #007BFF;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.users-dialogs_small {
+    height: 162px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

@@ -1,0 +1,18 @@
+.login-form {
+    width: 290px;
+    position: absolute;
+    padding: 15px;
+    background-color: white;
+    left: 50%;
+    margin-left: -145px;
+}
+
+.login-logo {
+    max-width: 50px;
+}
+
+.login-test {
+    color: #007BFF;
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,0 +1,38 @@
+.user-link {
+    display: block;
+    width: 100px;
+}
+
+.user-avatar {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.user-name {
+    font-size: 18px;
+    max-width: 150px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: pre;
+}
+
+.user-wrap {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+}
+
+.user-avatar div {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 900px) {
+    .user-name {
+        max-width: 100px;
+    }
+}
